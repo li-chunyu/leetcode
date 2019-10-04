@@ -11,3 +11,6 @@
 
 ## DP
 647 Palindromic Substrings
+
+## permutation 
+46 permutation 

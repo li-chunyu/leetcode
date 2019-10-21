@@ -18,4 +18,7 @@
 337 House Robber III
 
 ## permutation 
-46 permutation 
+46 permutation
+
+## union find
+399. Evaluate Division 

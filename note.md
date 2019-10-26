@@ -27,3 +27,6 @@
 
 ## union find
 399. Evaluate Division 
+
+## stack
+394 Decode String (比较不错)

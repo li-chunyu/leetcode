@@ -30,3 +30,6 @@
 
 ## stack
 394 Decode String (比较不错)
+
+## greedy
+621 Task Scheduler

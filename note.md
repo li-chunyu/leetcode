@@ -1,4 +1,4 @@
-# Problems that should do second times
+    # Problems that should do second times
 
 ## Array
 581 Shortest Unsorted Continuous Subarray
@@ -21,6 +21,8 @@
 647 Palindromic Substrings
 337 House Robber III
 96 Unique Binary Search Trees (有些难度)
+494 Target Sum (good)
+309 Best Time to Buy and Sell Stock with Cooldown (必做解释非常精彩 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/75928/Share-my-DP-solution-(By-State-Machine-Thinking))
 
 ## permutation 
 46 permutation
@@ -33,3 +35,6 @@
 
 ## greedy
 621 Task Scheduler
+
+## DFS
+494 Target Sum (good)

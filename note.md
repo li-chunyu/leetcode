@@ -5,6 +5,9 @@
 238. Product of Array Except Self, good solution.
 11 Container With Most Water
 
+## prefix computation
+560. Subarray Sum Equals K
+
 ## Two Pointer
 11  Container With Most Water
 560 Subarray Sum Equals K

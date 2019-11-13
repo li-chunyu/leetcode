@@ -2,18 +2,18 @@
 
 ## Array
 581 Shortest Unsorted Continuous Subarray
-238. Product of Array Except Self, good solution.
+238 Product of Array Except Self, good solution.
 11 Container With Most Water
 
 ## prefix computation
-560. Subarray Sum Equals K
+560 Subarray Sum Equals K
 
 ## Two Pointer
 11  Container With Most Water
 560 Subarray Sum Equals K
 
 ## Linked List
-287. Find the Duplicate Number (和找链表中的环那道题类似)
+287 Find the Duplicate Number (和找链表中的环那道题类似)
 
 ## bit operation
 338 Counting Bits
@@ -34,8 +34,8 @@
 46 permutation
 
 ## union find
-399. Evaluate Division 
-200. Number of Islands
+399 Evaluate Division 
+200 Number of Islands
 
 ## stack
 394 Decode String (比较不错)
@@ -54,3 +54,6 @@
 
 ## Need optimize
 208 Implement Trie (Prefix Tree)
+
+## Graph
+207 Course Schedule

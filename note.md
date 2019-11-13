@@ -28,6 +28,7 @@
 494 Target Sum (good)
 309 Best Time to Buy and Sell Stock with Cooldown (必做解释非常精彩 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/75928/Share-my-DP-solution-(By-State-Machine-Thinking))
 560 Subarray Sum Equals K
+300 Longest Increasing Subsequence (O(nlogn)复杂度没做出来)
 
 ## permutation 
 46 permutation

@@ -14,6 +14,7 @@
 
 ## Linked List
 287 Find the Duplicate Number (和找链表中的环那道题类似)
+148 Sort List(看了discuss才做出来)
 
 ## bit operation
 338 Counting Bits
@@ -60,3 +61,5 @@
 
 ## string
 438 Find All Anagrams in a String (非常非常好，一定要再做) ****************
+
+## 

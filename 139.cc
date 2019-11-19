@@ -1,10 +1,12 @@
+/*
+
 #include <iostream>
 #include <stack>
 #include <vector>
 #include <string>
 using namespace std;
 
-
+// FSA solution, but still have some problem
 class Solution {
 public:
     struct Arc {
@@ -39,7 +41,7 @@ public:
         cur_state = stack.top();
         stack.pop();
         if (cur_state.state == 1) {
-          if (cur_state.idx >= s.size()) {
+          if (cur_state.idx == s.size()) {
             flag = true;
             break;
           } else {
@@ -49,8 +51,8 @@ public:
         }
         
         for (auto arc : adj[0]) {
-          if (s.substr(cur_state.idx, arc.in.size()) == arc.in) {
-            stack.push(State(cur_state.idx+arc.in.size(), 1));
+          if (s.substr(cur_state.idx, arc.weight) == arc.in) {
+            stack.push(State(cur_state.idx+arc.weight, 1));
           }
         }
       }
@@ -58,9 +60,30 @@ public:
       
     }
 };
-
+*/
 //"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
 // ["a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa"]
+
+// DP solution.
+class Solution {
+public:
+    bool wordBreak(string s, vector<string>& wordDict) {
+      bool dp[s.size()+1] = {false};
+      dp[0] = true;
+      string word;
+      for (int i = 1; i <= s.size(); ++i) {
+        for (int j = i-1; j >=0; --j) {
+          if (dp[j]) {
+            word = s.substr(j, i-j);
+            if (find(wordDict.begin(), wordDict.end(), word) != wordDict.end()) {
+              dp[i] = true;
+            }
+          }
+        }
+      }
+      return dp[s.size()];
+    }
+};
 
 int main() {
   string s = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab";

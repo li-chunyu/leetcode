@@ -15,6 +15,7 @@
 ## Linked List
 287 Find the Duplicate Number (和找链表中的环那道题类似)
 148 Sort List(看了discuss才做出来)
+19 Remove Nth Node From End of List (25min 1-times)
 
 ## bit operation
 338 Counting Bits

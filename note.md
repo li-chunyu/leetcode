@@ -32,6 +32,8 @@
 560 Subarray Sum Equals K
 300 Longest Increasing Subsequence (O(nlogn)复杂度没做出来)
 139 Word Break
+221 Maximal Square (25min 没做出来)
+
 
 ## permutation 
 46 permutation

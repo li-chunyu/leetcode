@@ -66,4 +66,5 @@
 ## string
 438 Find All Anagrams in a String (非常非常好，一定要再做) ****************
 
-## 
+## binary search
+34 Find First and Last Position of Element in Sorted Array (没做出来)

@@ -34,6 +34,7 @@
 300 Longest Increasing Subsequence (O(nlogn)复杂度没做出来)
 139 Word Break
 221 Maximal Square (25min 没做出来)
+55 Jump Game(20min)
 
 
 ## permutation 

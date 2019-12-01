@@ -51,6 +51,7 @@
 
 ## DFS
 494 Target Sum (good)
+79 Word Search
 
 ## Tree 
 105 Construct Binary Tree from Preorder and Inorder Traversal

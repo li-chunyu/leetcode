@@ -4,6 +4,7 @@
 581 Shortest Unsorted Continuous Subarray
 238 Product of Array Except Self, good solution.
 11 Container With Most Water
+31 Next Permutation(20min 不错 应该再做)
 
 ## prefix computation
 560 Subarray Sum Equals K

@@ -18,6 +18,7 @@
 148 Sort List(看了discuss才做出来)
 19 Remove Nth Node From End of List (25min 1-times)
 142 Linked List Cycle II (30min 没做出来)
+138 Copy List with Random Pointer (没做出来，不错)
 
 ## bit operation
 338 Counting Bits

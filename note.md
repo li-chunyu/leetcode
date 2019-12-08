@@ -38,7 +38,7 @@
 221 Maximal Square (25min 没做出来)
 55 Jump Game(20min)
 322 Coin Change (没做出来)
-
+152 Maximum Product Subarray (30min)
 
 ## permutation 
 46 permutation

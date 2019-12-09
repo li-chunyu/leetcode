@@ -39,6 +39,7 @@
 55 Jump Game(20min)
 322 Coin Change (没做出来)
 152 Maximum Product Subarray (30min)
+3 Longest Substring Without Repeating Characters
 
 ## permutation 
 46 permutation

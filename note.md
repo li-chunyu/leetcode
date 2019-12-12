@@ -15,6 +15,7 @@
 977 Squares of a Sorted Array (10min， 不是最优)
 350 Intersection of Two Arrays II (no)
 844 Backspace String Compare ( 最优解有点意思)
+27 Remove Element (15min)
 
 ## Linked List
 287 Find the Duplicate Number (和找链表中的环那道题类似)

@@ -16,6 +16,8 @@
 350 Intersection of Two Arrays II (no)
 844 Backspace String Compare ( 最优解有点意思)
 27 Remove Element (15min)
+925 Long Pressed Name
+557 Reverse Words in a String III (10min 想了一会)
 
 ## Linked List
 287 Find the Duplicate Number (和找链表中的环那道题类似)
@@ -30,6 +32,7 @@
 
 ## Tree
 94 Binary Tree inorder traversal (non-recursive)
+669 Trim a Binary Search Tree (<10min, ez)
 
 ## DP
 647 Palindromic Substrings

@@ -7,6 +7,8 @@
 31 Next Permutation(20min 不错 应该再做)
 242 Valid Anagram (5min ez)
 13 Roman to Integer (5min ez)
+88 Merge Sorted Array ( 没做出来)
+189 Rotate Array (没做出来，只用了一种方法）
 
 ## prefix computation
 560 Subarray Sum Equals K
@@ -28,6 +30,7 @@
 142 Linked List Cycle II (30min 没做出来)
 138 Copy List with Random Pointer (没做出来，不错)
 146 LRU Cache (30min, ez but may details.)
+202 Happy Number (我做出来了，但是我不知道我为什么做出来了，所以我写在注释里了)
 
 ## bit operation
 338 Counting Bits
@@ -35,6 +38,7 @@
 ## Tree
 94 Binary Tree inorder traversal (non-recursive)
 669 Trim a Binary Search Tree (<10min, ez)
+572 Subtree of Another Tree(15min)
 
 ## DP
 647 Palindromic Substrings
@@ -50,6 +54,7 @@
 322 Coin Change (没做出来)
 152 Maximum Product Subarray (30min)
 3 Longest Substring Without Repeating Characters
+674 Longest Continuous Increasing Subsequence (5min)
 
 ## permutation 
 46 permutation

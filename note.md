@@ -9,6 +9,7 @@
 13 Roman to Integer (5min ez)
 88 Merge Sorted Array ( 没做出来)
 189 Rotate Array (没做出来，只用了一种方法）
+605 Can Place Flowers  (花的时间有点长)
 
 ## prefix computation
 560 Subarray Sum Equals K

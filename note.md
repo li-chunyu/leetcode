@@ -92,3 +92,6 @@
 
 ## binary search
 34 Find First and Last Position of Element in Sorted Array (没做出来)
+
+## Math
+204 Count Primes (过筛法，没做出来)

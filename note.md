@@ -70,6 +70,7 @@
 
 ## greedy
 621 Task Scheduler
+763 Partition Labels(没做出来)
 
 ## DFS
 494 Target Sum (good)

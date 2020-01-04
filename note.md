@@ -75,10 +75,12 @@
 ## DFS
 494 Target Sum (good)
 79 Word Search (low-efficency)
+529 Minesweeper (没做出来)
 
 ## Tree 
 105 Construct Binary Tree from Preorder and Inorder Traversal
 703 Kth Largest Element in a Stream
+421 Maximum XOR of Two Numbers in an Array(没做出来)
 
 ## Sort
 240 Search a 2D Matrix II

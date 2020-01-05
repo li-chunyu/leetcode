@@ -34,6 +34,7 @@
 138 Copy List with Random Pointer (没做出来，不错)
 146 LRU Cache (30min, ez but may details.)
 202 Happy Number (我做出来了，但是我不知道我为什么做出来了，所以我写在注释里了)
+328 Odd Even Linked List
 
 ## bit operation
 338 Counting Bits

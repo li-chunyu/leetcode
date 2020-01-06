@@ -35,6 +35,7 @@
 146 LRU Cache (30min, ez but may details.)
 202 Happy Number (我做出来了，但是我不知道我为什么做出来了，所以我写在注释里了)
 328 Odd Even Linked List
+24 Swap Nodes in Pairs
 
 ## bit operation
 338 Counting Bits

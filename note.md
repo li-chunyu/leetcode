@@ -74,6 +74,7 @@
 ## greedy
 621 Task Scheduler
 763 Partition Labels(没做出来)
+767 Reorganize String(没做出来，完全没思路)
 
 ## DFS
 494 Target Sum (good)

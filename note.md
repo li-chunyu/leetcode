@@ -25,6 +25,7 @@
 27 Remove Element (15min)
 925 Long Pressed Name
 557 Reverse Words in a String III (10min 想了一会)
+424 Longest Repeating Character Replacement (没做出来)
 
 ## Linked List
 287 Find the Duplicate Number (和找链表中的环那道题类似)

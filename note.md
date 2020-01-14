@@ -46,6 +46,9 @@
 94 Binary Tree inorder traversal (non-recursive)
 669 Trim a Binary Search Tree (<10min, ez)
 572 Subtree of Another Tree(15min)
+105 Construct Binary Tree from Preorder and Inorder Traversal
+703 Kth Largest Element in a Stream
+421 Maximum XOR of Two Numbers in an Array(没做出来)
 
 ## DP
 647 Palindromic Substrings
@@ -83,11 +86,6 @@
 79 Word Search (low-efficency)
 529 Minesweeper (没做出来)
 
-## Tree 
-105 Construct Binary Tree from Preorder and Inorder Traversal
-703 Kth Largest Element in a Stream
-421 Maximum XOR of Two Numbers in an Array(没做出来)
-
 ## Sort
 240 Search a 2D Matrix II
 
@@ -102,6 +100,7 @@
 
 ## binary search
 34 Find First and Last Position of Element in Sorted Array (没做出来)
+658 Find K Closest Elements (没做出来， 非常好的题目)
 
 ## Math
 204 Count Primes (过筛法，没做出来)

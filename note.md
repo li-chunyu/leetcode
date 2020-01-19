@@ -101,6 +101,9 @@
 ## binary search
 34 Find First and Last Position of Element in Sorted Array (没做出来)
 658 Find K Closest Elements (没做出来， 非常好的题目)
+35 Search Insert Position
+69 Sqrt(x) (没做出来)
+74 Search a 2D Matrix (做出来了)
 
 ## Math
 204 Count Primes (过筛法，没做出来)

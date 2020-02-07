@@ -23,7 +23,7 @@ public:
         //  可能性已经搜索过了，所以应该避免继续搜索(因为subset 中数字的顺序是无所谓的)。
         //  比如 for 循环进行到 i = n, 说明 i < n 的情况时 canPartition 都返回的是 false
         //  ，所以 nums[j], j < n 都不能加入到当前 subset，就不需要进行重复搜索，只需要从 n + 1开始
-        //  搜索nums[n+1...nums.size()]加入到当前 subset能否满足要求。
+        //  搜索nums[n+1...nums.size()]加入到当前 subset能否满足要求  。
         //  （并没有解释太清楚，需要结合代码好好理解一下 inde 的作用）
         for (int i = index; i < nums.size(); ++i) {
             if (!visited[i]) {

@@ -1,3 +1,35 @@
+// merge sort 中的 merge 操作
+
+class Solution {
+public:
+    vector<int> sortedSquares(vector<int>& A) {
+        vector<int> res;
+        int first_positive_idx = 0;
+        while (first_positive_idx < A.size() &&
+               A[first_positive_idx] < 0 &&
+               ++first_positive_idx); // first positive number.
+        int last_negtive_idx = first_positive_idx - 1;
+        for (int i = 0; i < A.size(); ++i) {
+            if (last_negtive_idx < 0) {
+                res.push_back(A[first_positive_idx] * A[first_positive_idx]);
+                first_positive_idx++;
+            } else if (first_positive_idx > (A.size() - 1)) {
+                res.push_back(A[last_negtive_idx] * A[last_negtive_idx]);
+                last_negtive_idx--;
+            } else if (abs(A[first_positive_idx]) > abs(A[last_negtive_idx])) {
+                res.push_back(A[last_negtive_idx] * A[last_negtive_idx]);
+                last_negtive_idx--;
+            } else {
+                res.push_back(A[first_positive_idx] * A[first_positive_idx]);
+                first_positive_idx++;
+            }
+        }
+        return res;
+    }
+};
+
+
+
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& A) {

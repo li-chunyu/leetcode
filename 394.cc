@@ -29,3 +29,42 @@ public:
       return res;
     }
 };
+
+
+//  rec version
+class Solution {
+public:
+    string decodeString(string s) {
+        int idx = 0;
+        return decodeStr(s, idx);
+    }
+    
+    string decodeStr(string& s, int& idx) {
+        int times = 1;
+        string res = "";
+        
+        for (; idx < s.size(); ++idx) {
+            char c = s[idx];
+            if (isdigit(c)) {
+                string t = "";
+                while (isdigit(s[idx]))
+                    t += s[idx++];
+                idx--;
+                times = stoi(t);
+            } else if (c >= 'a' && c <= 'z'){
+                //for (int j = 0; j < times; ++j) res += c;
+                res += c;
+            } else if ( c == '[') {
+                idx += 1;
+                string str = decodeStr(s , idx);
+                for (int j = 0; j < times; ++j) res += str;
+                times = 1;
+            } else if (c == ']') {
+                return res;
+            } else if (c >= 'A' && c <= 'Z') {
+                res += c;
+            }
+        }
+        return res;
+    }
+};

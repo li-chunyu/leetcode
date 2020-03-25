@@ -7,3 +7,5 @@ class Solution:
             profit = p - min_price
             max_profit = max(max_profit, profit)
         return max_profit
+
+if __name__ == "__main__":
